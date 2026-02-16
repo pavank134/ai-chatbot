@@ -1,0 +1,21 @@
+
+
+:root {
+  --bg-color: #0e0e10;
+  --surface-color: #1e1e20;
+  --accent-color: #4b90ff;
+  --border-color: #2e2e32;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  overflow: hidden; /* Prevent body scroll, use container scroll */
+}
+
+/* Custom Scrollbar for Chat */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #3f3f46; border-radius: 10px; }
+::-webkit-scrollbar-thumb:hover { background: #52525b; }
